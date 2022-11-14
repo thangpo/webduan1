@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a1{
+    text-decoration: none; 
+    color: white;
+}
+.a1:hover{
+    color: brown;
+    border-radius: 10px;
+    background-color: azure;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 950ms;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(93, 104, 93);
+    height: 60px;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    top: 0;
+    width: 1440px;
+}
+.headera{
+    width: 200px;
+}
+.headeranh{
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+.headermn{
+    width: 750px;
+    margin-right: 100px;
+}
+ul{
+    display: flex;
+    gap: 25px;
+    font-weight: bolder;
+    line-height: 25px;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+ul li{
+    display: inline-block;
+    display: flex;
+    gap: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+li a:hover{
+    color: brown;
+}
+li:hover{
+    height: 30px;
+    color: brown;
+    border-radius: 10px;
+    background-color: azure;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 950ms;
+}
+.headerabc{
+    display: flex;
+    grid-gap: 10px;
+    margin-right: 20px;
+}
+select{
+    border: rgb(93, 104, 93);
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: bolder;
+    background-color: rgb(93, 104, 93);
+}
+.headerbt{
+    height: 60px;
+    background-color: rgb(93, 104, 93);
+    border: rgb(93, 104, 93);
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bolder;
+} 
+.main {
+    padding: 16px;
+    margin-top: 60px;
+    display: flex;
+    grid-gap: 20px;
+} 
+.mySlides{
+    height: 600px;
+    width: 1440px;
+}
+
+
+/* trang đăng nhập*/
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    margin-top: 20px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(93, 104, 93);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #000000;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+button:hover,button:active,button:focus {
+    background: #43A047;
+  }
+  .kmn:hover{
+      background-color: rgb(165, 134, 165);
+  }
+.message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+.message a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+.form .register-form {
+    display: none;
+  }
+  .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+  }
+.info span {
+    color: #4d4d4d;
+    font-size: 12px;
+  }
+  .jqk{
+      text-align: center;
+      font-size: 35px;
+  }
+.info span a {
+    color: #000000;
+    text-decoration: none;
+  }
+.info span .fa {
+    color: #EF3B3A;
+  }
+.body {
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;      
+  }
